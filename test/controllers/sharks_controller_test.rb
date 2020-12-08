@@ -45,4 +45,5 @@ class SharksControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to sharks_url
   end
+
 end

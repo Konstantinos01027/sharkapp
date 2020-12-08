@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @post.body %>
+</p>
+
+<p>
+  <strong>Shark:</strong>
+  <%= @post.shark %>
+</p>
+
+<%= link_to 'Edit', edit_shark_post_path(@shark, @post) %> |
+<%= link_to 'Back', shark_posts_path(@shark) %>
