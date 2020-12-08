@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'contacts/index'
+  get 'pages/about'
+  get 'pages/contact'
   resources :sharks
 
 root 'sharks#index'

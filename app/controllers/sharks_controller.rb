@@ -35,6 +35,9 @@ class SharksController < ApplicationController
         format.json { render json: @shark.errors, status: :unprocessable_entity }
       end
     end
+
+  def contact
+  end
   end
 
   # PATCH/PUT /sharks/1
